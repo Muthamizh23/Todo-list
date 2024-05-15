@@ -1,0 +1,119 @@
+ .input-container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .input-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+    margin-left: 2%;
+    width: 80%;
+    margin-top: 20px;
+  }
+  .input-container input,
+  .input-container select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; 
+    margin-left: 40px; 
+  }
+  .input-container button {
+    padding: 10px ;
+    background-color: #4a9c4e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:70%;
+    margin-left: 60px;
+    border: 1px solid gray;
+  }
+  .input-container button:hover {
+    background-color: #2fbe2f;
+  }
+  body {
+    background: linear-gradient(135deg, #51dba6, #44abdb);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .box {
+    background-color: #ffffff; 
+    border: none; 
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 10px;
+    border-radius: 5px;  
+  }
+  .card-title {
+    font-size: 1.25rem; 
+    padding: 20px 10px 0px 10px;
+  }
+  .card-text {
+    font-size: 1rem; 
+  }
+  .shadow-lg {
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 255, 0.15) !important;
+  }
+  .card-body {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  .form-container {
+    text-align: center;
+  }
+  .form-container input {
+    margin-right: 10px;
+  }
+  .filter-btn{
+    text-align: center;
+    margin-left: 80%;
+  }
+  .select-btn{
+    padding: 10px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 5px;
+  }
+  .select-btn:hover{
+    background-color: rgb(95, 94, 94);
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .form-control{
+    padding: 10px;
+    font-weight: bold;
+    background-color: #9ae4f1;
+    border: none;
+    border-radius: 5px;
+  }
+  .edit-btn{
+    padding:5px;
+    margin: 10px;
+    width: 60px;
+    background-color: rgb(25, 163, 25);
+    border-radius: 5px;
+    border: none;
+  }
+  .delete-btn{
+    padding:5px;
+    margin: 10px;
+    width: 60px;
+    background-color: rgb(199, 22, 22);
+    border-radius: 5px;
+    border: none;
+  }
